@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+
+
+<body class="bg-dark bg-opacity-75">
+
+    <nav class="navbar navbar-expand-lg py-4">
+        <div class="container px-0">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" class="img-fluid" alt="" srcset="" /></a>
+            <div>
+                <h1 class="text-white mb-0">Weather</h1>
+                <small>tagline goes here</small>
+            </div>
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active px-4" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="search_area">
+            <div class="container position-relative py-5">
+                <input type="text" id="search_input" placeholder="Enter Your location..."
+                    class="form-control text-white py-3 rounded-5" />
+                <button class="deleteBtn position-absolute btn btn-primary rounded-4 py-2">
+                    Delete
+                </button>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row gx-0 gy-2">
+                <div class="col-md-4" id="currentDay">
+
+                </div>
+                <div class="col-md-4" id="nextDay">
+
+                </div>
+                <div class="col-md-4" id="afterNextDay">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container py-5 px-0">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="position-relative subscribe_input">
+                        <input type="text" placeholder="Enter Your email to subscribe .... "
+                            class="form-control py-3 rounded-5 text-white" />
+                        <button class="btn text-white btn_subscribe rounded-4 py-2 position-absolute">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="d-flex justify-content-center">
+                        <li class="list-unstyled me-1">
+                            <a href="#" class="text-decoration-none"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li class="list-unstyled me-1">
+                            <a href="#" class="text-decoration-none"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="list-unstyled me-1">
+                            <a href="#" class="text-decoration-none"><i class="fa-brands fa-google-plus"></i></a>
+                        </li>
+                        <li class="list-unstyled me-1">
+                            <a href="#" class="text-decoration-none"><i class="fa-brands fa-pinterest"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="mt-4">
+                Copyright 2014 Company name. Designed by Themezy. All rights reserved
+            </p>
+        </div>
+    </div>
+    <script src="Js/index.js"></script>
+</body>
+
+
+
+</html>
